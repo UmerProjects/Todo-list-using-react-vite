@@ -103,7 +103,7 @@ function Item({ todos, item, setTodos }) {
           </button>
           <div className="todo-items-right">
             <button onClick={handleEdit}>
-              <FaEdit size={"2.5em"} />
+              <FaEdit size={"2.5em"} color=""/>
               <span className="visually-hidden">Edit</span>
             </button>
             <button onClick={handleDelete}>
